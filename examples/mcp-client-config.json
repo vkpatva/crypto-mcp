@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "crypto": {
+      "command": "node",
+      "args": ["/absolute/path/to/crypto-mcp-server/dist/index.js"],
+      "env": {
+        "ALCHEMY_API_KEY": "your-alchemy-key",
+        "PRIVATE_KEY": "0xyour-private-key",
+        "DEFAULT_NETWORK": "ethereum"
+      }
+    }
+  }
+}
